@@ -27,11 +27,11 @@ if __name__ == "__main__" :
     plugins = dict(
         root="plugins"
     )
-    app = Clinton("Teleroid_Renamer_Bot", 
+    app = Clinton("TNRENAMER08_BOT", 
           bot_token=Config.TG_BOT_TOKEN, 
           api_id=Config.APP_ID,
           api_hash=Config.API_HASH,
           plugins=plugins
     )
-    Config.AUTH_USERS.add(1287407305)
+    Config.AUTH_USERS.add(1217549670)
     app.run()
